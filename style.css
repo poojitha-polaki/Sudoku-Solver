@@ -1,0 +1,122 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 60px;
+    background-color: rgb(226, 161, 64);
+} 
+#logo{
+    width: 108px;
+    height: 100px;
+}
+#logo img{
+    width: 100%;
+}
+
+#name{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* .Heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+} */
+
+.sudoku_grid{
+    display: flex;
+    flex-direction: row;
+    max-width: 578px;
+    flex-wrap: wrap;
+
+    margin: 10px auto ;
+}
+
+.sudoku_grid div{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 40px;
+
+    box-sizing: border-box;
+}
+
+.Buttons{   
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    margin-bottom: 80px;
+}
+
+#GetPuzzle,#SolvePuzzle{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #428cc5;
+    padding: 10px 35px;
+    font-size: 24px;
+    border: 1px solid #2d6898;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.3);
+    margin-right: 10px;
+}
+#GetPuzzle:hover{
+     background-color: #1866a1;
+}
+#SolvePuzzle:hover{
+     background-color: #1866a1;
+}
+
+.box1{
+    background-color: #8e96ea;
+    border: 2px solid  white;
+}
+
+.box1:hover{
+    background-color: #4382cb;
+    color: black;
+}
+
+.box2{
+    background-color: #e5887e;
+    border: 2px solid  white;
+}
+.box2:hover{
+    background-color: rgb(234, 93, 93);
+}
+
+.box3{
+    background-color: #70df7b;
+    border: 2px solid  white;
+}
+.box3:hover{
+    background-color: #279e64;
+    color: black
+}
+
+.bl{
+    border-left: 4px solid black;
+}
+
+.bb{
+    border-bottom: 4px solid black;
+}
+
+.br{
+    border-right: 4px solid black;
+}
+
+.bt{
+    border-top: 4px solid black;
+}
